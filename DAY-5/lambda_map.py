@@ -87,4 +87,4 @@ print(var)
 # squared_numbers = list(map(square, numbers))
 # print(squared_numbers)
 
-""" HW - play with lambda and map  - 10 example"""
+""" HW - play with lambda and map  - 10 example """
