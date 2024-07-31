@@ -88,3 +88,4 @@ print(var)
 # print(squared_numbers)
 
 """ HW - play with lambda and map  - 10 example """
+""" example 1 """
