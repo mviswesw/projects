@@ -1,0 +1,14 @@
+// Madan Raj
+// 10:24 PM
+dtype = {
+    'column1': 'int32',
+    'column2': 'float32',
+    'column3': 'category'
+}
+
+df = pd.read_csv('large_file.csv', dtype=dtype)
+// Meenakshi Visweswaran
+// 10:47 PM
+1. create large input file and use chunk size to see perfromance change and log time difference.
+2. Add datatype -  check
+3. How to use venv

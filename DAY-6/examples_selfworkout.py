@@ -65,3 +65,25 @@ salariesInput= [('Alice', 45000), ('Bob', 55000), ('Charlie', 60000)]
 resultfilter = list(filter(lambda x:x[1]>50000,salariesInput))
 print(list(map(lambda x:(x[0],round(x[1]+x[1]*0.1)),resultfilter)))
 print("-"*100)
+
+"""
+4. Converting and Filtering Temperatures
+Question: Given a list of temperatures in Fahrenheit, 
+use the filter() function to keep only those temperatures that are above freezing (32°F). 
+Then, use the map() function to convert these temperatures to Celsius.
+
+Example Input: [30, 40, 50, 60]
+Expected Output: [4.44, 10.0, 15.56] (rounded to 2 decimal places)
+
+5. Filtering and Capitalizing Names
+Question: Given a list of names, use the filter() function to 
+keep only those names that start with a vowel. Then, use the map() 
+function to capitalize each remaining name.
+
+Example Input: ['alice', 'bob', 'ian', 'eve', 'oscar']
+Expected Output: ['Alice', 'Ian', 'Eve', 'Oscar']
+
+These questions should help you practice combining map() and filter() 
+functions to handle more complex, real-world scenarios.
+"""
+print("somthis".capitalize())
