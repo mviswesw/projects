@@ -1,0 +1,7 @@
+1. create large input file and use chunk size to see performance change and log time difference.
+2. Add datatype -  check (Done)
+3. How to use venv (DOne)
+-----------------------------------------
+4. .env variable to be used in python file (Done)
+5. Run this script and make it work 
+6. check if preformance improves - for (DAY-9)
