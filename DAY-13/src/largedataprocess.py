@@ -24,12 +24,3 @@ print(f'\n=======4. df.describe() =======- \n{df.describe()}')
 print(f'\n=======5. df.info() =======-\n{df.info()}') 
 
 print(f"\n {df['asset_symbol'].unique()}")
-
-"""
-HW
-1. find avg user balance in the entire data
-2. find avg of each individual user
-3. splitting he data where the threshold is avg value for all users
-4. balance - see if balance of the filtered users have increased atleast by 3-4 datapoints (data is collected every 6 hrs) - 'equity'
-5. Find users that have maximum balance (example - collect top 10 users)
-"""
