@@ -94,6 +94,7 @@ print("4. \nCount Common data:", len(common_data))
                 results.append(group.iloc[i:i + 3])
                 
     return pd.concat(results) if results else pd.DataFrame()"""
+
 def find_increasing_balances(df, consecutive_points=20):
     """
     Find all instances where the balance increases for a specified number of consecutive timestamps.
@@ -144,3 +145,9 @@ top_sorted['balance'].dtype
 top_sorted['balance'] = top_sorted['balance'].apply(Decimal)
 print(f"sorted {top_sorted.head(2500)}")
 top_sorted.head(2500).to_csv("sorted_to_100_users.csv")
+
+"""
+HW - undestand above code
+1. classes, 
+2. API
+"""
